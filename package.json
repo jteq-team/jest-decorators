@@ -1,0 +1,26 @@
+{
+  "name": "@jteq/jest-decorators",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "typedoc --out docs",
+    "build": "tsc -p ./tsconfig.json",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "@angular/core": "^7.2.1",
+    "jest": "^23.6.0",
+    "rxjs": "^6.3.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "description": ""
+}

@@ -1,0 +1,7 @@
+docs
+node_modules
+*.ts
+!*.d.ts
+!*.d.ts.map
+tsconfig.json
+yarn.lock
