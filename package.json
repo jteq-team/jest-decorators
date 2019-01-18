@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild": "typedoc --out docs",
+    "prebuild": "typedoc --out docs --theme minimal",
     "build": "tsc -p ./tsconfig.json",
     "prepublish": "yarn build"
   },
